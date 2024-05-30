@@ -1,0 +1,28 @@
+.sidebar {
+    width: 264px;
+    height:fit-content;
+    border: 1px solid #CFCFE4;
+    padding: 12px;
+    list-style: none;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 24px;
+
+    &__element {
+        cursor: pointer;
+        width: 100%;
+        padding: 12px;
+        border-radius: 12px;
+        font-size: 18px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+
+        &-active {
+            background: #5FBF77;
+            color: #FFF;
+        }
+    }
+}
